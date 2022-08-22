@@ -37,8 +37,15 @@ execute if score $hall_to_room_dialogue_dialogue hall_to_room_dialogue_dialogue 
 execute if score $hall_to_room_dialogue_dialogue hall_to_room_dialogue_dialogue matches 12 run tellraw @a {"text":"小威:等一下!這課本是怎麼了!"}
 execute if score $hall_to_room_dialogue_dialogue hall_to_room_dialogue_dialogue matches 13 run
 execute if score $hall_to_room_dialogue_dialogue hall_to_room_dialogue_dialogue matches 12 run schedule function mrh_command:hall_to_changbin/hall_to_room 3.5s
-execute if score $hall_to_room_dialogue_dialogue hall_to_room_dialogue_dialogue matches 13 run 
-execute if score $hall_to_room_dialogue_dialogue hall_to_room_dialogue_dialogue matches 13 run
+execute if score $hall_to_room_dialogue_dialogue hall_to_room_dialogue_dialogue matches 13 run setblock 44 81 -479 minecraft:flower_pot
+execute if score $hall_to_room_dialogue_dialogue hall_to_room_dialogue_dialogue matches 13 run setblock 44 81 -478 minecraft:oak_sapling
+execute if score $hall_to_room_dialogue_dialogue hall_to_room_dialogue_dialogue matches 13 run schedule function mrh_command:hall_to_changbin/hall_to_room 0.1s
+execute if score $hall_to_room_dialogue_dialogue hall_to_room_dialogue_dialogue matches 14 run setblock 44 81 -478 air
+execute if score $hall_to_room_dialogue_dialogue hall_to_room_dialogue_dialogue matches 14 run setblock 44 81 -477 minecraft:oak_sapling
+execute if score $hall_to_room_dialogue_dialogue hall_to_room_dialogue_dialogue matches 14 run schedule function mrh_command:hall_to_changbin/hall_to_room 0.1s
+
+
+
 
 execute if score $hall_to_room_dialogue_dialogue hall_to_room_dialogue_dialogue matches  run tellraw @a {"text":"小威:我的小幼苗怎麼被吸進去了"}
 execute if score $hall_to_room_dialogue_dialogue hall_to_room_dialogue_dialogue matches  run tellraw @a {"text":"小威:不!!!!我的家當!!!!!"}
