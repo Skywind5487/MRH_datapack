@@ -51,6 +51,7 @@ execute if score $consciousness_space_dialogue consciousness_space_dialogue matc
 execute if score $consciousness_space_dialogue consciousness_space_dialogue matches 25 run tellraw @a {"text":"天之聲:1"}
 execute if score $consciousness_space_dialogue consciousness_space_dialogue matches 25 run schedule function mrh_command:hall_to_changbin/consciousness_space 1s
 execute if score $consciousness_space_dialogue consciousness_space_dialogue matches 26 run tellraw @a {"text":"小威:哀"}
+setblock 817 23 -374 redstone_block
 
 
 
