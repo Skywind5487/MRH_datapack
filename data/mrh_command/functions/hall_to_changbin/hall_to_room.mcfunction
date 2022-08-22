@@ -34,7 +34,8 @@ execute if score $hall_to_room_dialogue_dialogue hall_to_room_dialogue_dialogue 
 execute if score $hall_to_room_dialogue_dialogue hall_to_room_dialogue_dialogue matches 11 run setblock 40 83 -477 minecraft:oak_fence
 execute if score $hall_to_room_dialogue_dialogue hall_to_room_dialogue_dialogue matches 11 run particle minecraft:soul_fire_flame 44.34 81.50 -474.48 0.25 0.5 0.25 0.01 120
 execute if score $hall_to_room_dialogue_dialogue hall_to_room_dialogue_dialogue matches 11 run schedule function mrh_command:hall_to_changbin/hall_to_room 1.2s
-execute if score $hall_to_room_dialogue_dialogue hall_to_room_dialogue_dialogue matches 12 run tellraw @a {"text":"小威:等一下!這課本是怎麼了!"}execute if score $hall_to_room_dialogue_dialogue hall_to_room_dialogue_dialogue matches 13 run
+execute if score $hall_to_room_dialogue_dialogue hall_to_room_dialogue_dialogue matches 12 run tellraw @a {"text":"小威:等一下!這課本是怎麼了!"}
+execute if score $hall_to_room_dialogue_dialogue hall_to_room_dialogue_dialogue matches 13 run
 execute if score $hall_to_room_dialogue_dialogue hall_to_room_dialogue_dialogue matches 12 run schedule function mrh_command:hall_to_changbin/hall_to_room 3.5s
 execute if score $hall_to_room_dialogue_dialogue hall_to_room_dialogue_dialogue matches 13 run 
 execute if score $hall_to_room_dialogue_dialogue hall_to_room_dialogue_dialogue matches 13 run
