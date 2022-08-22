@@ -30,7 +30,7 @@ execute if score $consciousness_space_dialogue consciousness_space_dialogue matc
 execute if score $consciousness_space_dialogue consciousness_space_dialogue matches 1 run schedule function mrh_command:hall_to_changbin/hall_to_changbin_dialogue 4.5s
 execute if score $consciousness_space_dialogue consciousness_space_dialogue matches 13 run tellraw @a {“text”:”天之聲:哼，我就勉為其難地說一遍吧“}
 execute if score $consciousness_space_dialogue consciousness_space_dialogue matches 1 run schedule function mrh_command:hall_to_changbin/hall_to_changbin_dialogue 3.5s
-execute if score $consciousness_space_dialogue consciousness_space_dialogue matches 12 run tellraw @a {“text”:”天之聲:你需要在各個時空裡完成任務並奪得神器，才能撕開時空裂縫回家“}execute if score $consciousness_space_dialogue consciousness_space_dialogue matches 1 run schedule function mrh_command:hall_to_changbin/hall_to_changbin_dialogue 3.5s
+execute if score $consciousness_space_dialogue consciousness_space_dialogue matches 12 run tellraw @a {“text”:”天之聲:你需要在各個時空裡完成任務並奪得神器，才能撕開時空裂縫回家“}
 execute if score $consciousness_space_dialogue consciousness_space_dialogue matches 1 run schedule function mrh_command:hall_to_changbin/hall_to_changbin_dialogue 8s
 execute if score $consciousness_space_dialogue consciousness_space_dialogue matches 16 run tellraw @a {“text”:”小威:好麻煩==。是說，誰是你的主人?“}
 execute if score $consciousness_space_dialogue consciousness_space_dialogue matches 1 run schedule function mrh_command:hall_to_changbin/hall_to_changbin_dialogue 4.5s
