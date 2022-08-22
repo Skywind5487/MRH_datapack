@@ -43,11 +43,76 @@ execute if score $hall_to_room_dialogue_dialogue hall_to_room_dialogue_dialogue 
 execute if score $hall_to_room_dialogue_dialogue hall_to_room_dialogue_dialogue matches 14 run setblock 44 81 -478 air
 execute if score $hall_to_room_dialogue_dialogue hall_to_room_dialogue_dialogue matches 14 run setblock 44 81 -477 minecraft:oak_sapling
 execute if score $hall_to_room_dialogue_dialogue hall_to_room_dialogue_dialogue matches 14 run schedule function mrh_command:hall_to_changbin/hall_to_room 0.1s
+execute if score $hall_to_room_dialogue_dialogue hall_to_room_dialogue_dialogue matches 15 run setblock 44 81 -477 air
+execute if score $hall_to_room_dialogue_dialogue hall_to_room_dialogue_dialogue matches 15 run setblock 44 81 -476 minecraft:oak_sapling
+execute if score $hall_to_room_dialogue_dialogue hall_to_room_dialogue_dialogue matches 15 run schedule function mrh_command:hall_to_changbin/hall_to_room 0.1s
+execute if score $hall_to_room_dialogue_dialogue hall_to_room_dialogue_dialogue matches 16 run setblock 44 81 -476 air
+execute if score $hall_to_room_dialogue_dialogue hall_to_room_dialogue_dialogue matches 16 run particle minecraft:smoke 44.55 81.00 -474.60 0.35 0.5 0.35 0.02 5440
+execute if score $hall_to_room_dialogue_dialogue hall_to_room_dialogue_dialogue matches 16 run schedule function mrh_command:hall_to_changbin/hall_to_room 2.2s
+execute if score $hall_to_room_dialogue_dialogue hall_to_room_dialogue_dialogue matches 17 run tellraw @a {"text":"小威:我的小幼苗怎麼被吸進去了"}
+execute if score $hall_to_room_dialogue_dialogue hall_to_room_dialogue_dialogue matches 17 run schedule function mrh_command:hall_to_changbin/hall_to_room 3.7s
+execute if score $hall_to_room_dialogue_dialogue hall_to_room_dialogue_dialogue matches 18 run setblock 39 82 -474 air
+execute if score $hall_to_room_dialogue_dialogue hall_to_room_dialogue_dialogue matches 18 run setblock 40 81 -474 chest
+execute if score $hall_to_room_dialogue_dialogue hall_to_room_dialogue_dialogue matches 18 run schedule function mrh_command:hall_to_changbin/hall_to_room 0.1s
+execute if score $hall_to_room_dialogue_dialogue hall_to_room_dialogue_dialogue matches 19 run setblock 41 81 -474 chest
+execute if score $hall_to_room_dialogue_dialogue hall_to_room_dialogue_dialogue matches 19 run setblock 40 81 -474 air
+execute if score $hall_to_room_dialogue_dialogue hall_to_room_dialogue_dialogue matches 19 run function mrh_command:hall_to_changbin/hall_to_room 0.1s
+execute if score $hall_to_room_dialogue_dialogue hall_to_room_dialogue_dialogue matches 20 run setblock 42 81 -474 chest
+execute if score $hall_to_room_dialogue_dialogue hall_to_room_dialogue_dialogue matches 20 run setblock 41 81 -474 air
+execute if score $hall_to_room_dialogue_dialogue hall_to_room_dialogue_dialogue matches 21 run function mrh_command:hall_to_changbin/hall_to_room 0.1s
+execute if score $hall_to_room_dialogue_dialogue hall_to_room_dialogue_dialogue matches 22 run setblock 43 81 -474 chest
+execute if score $hall_to_room_dialogue_dialogue hall_to_room_dialogue_dialogue matches 22 run setblock 42 81 -474 air
+execute if score $hall_to_room_dialogue_dialogue hall_to_room_dialogue_dialogue matches 22 run function mrh_command:hall_to_changbin/hall_to_room 0.1s
+execute if score $hall_to_room_dialogue_dialogue hall_to_room_dialogue_dialogue matches 23 run setblock 43 81 -474 air
+execute if score $hall_to_room_dialogue_dialogue hall_to_room_dialogue_dialogue matches 23 run particle minecraft:smoke 44.55 81.00 -474.60 0.25 0.5 0.25 0.02 2440
+execute if score $hall_to_room_dialogue_dialogue hall_to_room_dialogue_dialogue matches 23 run function mrh_command:hall_to_changbin/hall_to_room 0.1s
+execute if score $hall_to_room_dialogue_dialogue hall_to_room_dialogue_dialogue matches 24 run setblock 38 80 -477 air
+execute if score $hall_to_room_dialogue_dialogue hall_to_room_dialogue_dialogue matches 24 run setblock 39 80 -477 minecraft:light_gray_wool
+execute if score $hall_to_room_dialogue_dialogue hall_to_room_dialogue_dialogue matches 24 run function mrh_command:hall_to_changbin/hall_to_room 0.4s
+execute if score $hall_to_room_dialogue_dialogue hall_to_room_dialogue_dialogue matches 25 run setblock 40 80 -477 minecraft:light_gray_wool
+execute if score $hall_to_room_dialogue_dialogue hall_to_room_dialogue_dialogue matches 25 run setblock 39 80 -477 minecraft:air
+execute if score $hall_to_room_dialogue_dialogue hall_to_room_dialogue_dialogue matches 25 run setblock 44 82 -475 minecraft:bookshelf
+execute if score $hall_to_room_dialogue_dialogue hall_to_room_dialogue_dialogue matches 25 run setblock 44 83 -475 air
+execute if score $hall_to_room_dialogue_dialogue hall_to_room_dialogue_dialogue matches 25 run function mrh_command:hall_to_changbin/hall_to_room 0.1s
+execute if score $hall_to_room_dialogue_dialogue hall_to_room_dialogue_dialogue matches 26 run setblock 41 80 -476 minecraft:light_gray_wool
+execute if score $hall_to_room_dialogue_dialogue hall_to_room_dialogue_dialogue matches 26 run particle minecraft:smoke 44.55 81.00 -474.60 0.25 0.5 0.25 0.02 1440
+execute if score $hall_to_room_dialogue_dialogue hall_to_room_dialogue_dialogue matches 26 run setblock 40 80 -477 minecraft:air
+execute if score $hall_to_room_dialogue_dialogue hall_to_room_dialogue_dialogue matches 26 run setblock 44 82 -475 minecraft:air
+execute if score $hall_to_room_dialogue_dialogue hall_to_room_dialogue_dialogue matches 26 run function mrh_command:hall_to_changbin/hall_to_room 0.1s
+execute if score $hall_to_room_dialogue_dialogue hall_to_room_dialogue_dialogue matches 27 run setblock 41 80 -476 minecraft:air
+execute if score $hall_to_room_dialogue_dialogue hall_to_room_dialogue_dialogue matches 27 run setblock 42 80 -476 minecraft:light_gray_wool
+execute if score $hall_to_room_dialogue_dialogue hall_to_room_dialogue_dialogue matches 27 run function mrh_command:hall_to_changbin/hall_to_room 0.1s
+execute if score $hall_to_room_dialogue_dialogue hall_to_room_dialogue_dialogue matches  run
+execute if score $hall_to_room_dialogue_dialogue hall_to_room_dialogue_dialogue matches  run
+execute if score $hall_to_room_dialogue_dialogue hall_to_room_dialogue_dialogue matches  run function mrh_command:hall_to_changbin/hall_to_room 0.1s
+execute if score $hall_to_room_dialogue_dialogue hall_to_room_dialogue_dialogue matches  run
+execute if score $hall_to_room_dialogue_dialogue hall_to_room_dialogue_dialogue matches  run
+execute if score $hall_to_room_dialogue_dialogue hall_to_room_dialogue_dialogue matches  run
+execute if score $hall_to_room_dialogue_dialogue hall_to_room_dialogue_dialogue matches  run
+execute if score $hall_to_room_dialogue_dialogue hall_to_room_dialogue_dialogue matches  run
+execute if score $hall_to_room_dialogue_dialogue hall_to_room_dialogue_dialogue matches  run
+execute if score $hall_to_room_dialogue_dialogue hall_to_room_dialogue_dialogue matches  run
+execute if score $hall_to_room_dialogue_dialogue hall_to_room_dialogue_dialogue matches  run
+execute if score $hall_to_room_dialogue_dialogue hall_to_room_dialogue_dialogue matches  run
+execute if score $hall_to_room_dialogue_dialogue hall_to_room_dialogue_dialogue matches  run
+execute if score $hall_to_room_dialogue_dialogue hall_to_room_dialogue_dialogue matches  run
+execute if score $hall_to_room_dialogue_dialogue hall_to_room_dialogue_dialogue matches  run
+execute if score $hall_to_room_dialogue_dialogue hall_to_room_dialogue_dialogue matches  run
+execute if score $hall_to_room_dialogue_dialogue hall_to_room_dialogue_dialogue matches  run
+execute if score $hall_to_room_dialogue_dialogue hall_to_room_dialogue_dialogue matches  run
+execute if score $hall_to_room_dialogue_dialogue hall_to_room_dialogue_dialogue matches  run
+execute if score $hall_to_room_dialogue_dialogue hall_to_room_dialogue_dialogue matches  run
+execute if score $hall_to_room_dialogue_dialogue hall_to_room_dialogue_dialogue matches  run
+execute if score $hall_to_room_dialogue_dialogue hall_to_room_dialogue_dialogue matches  run
+execute if score $hall_to_room_dialogue_dialogue hall_to_room_dialogue_dialogue matches  run
+execute if score $hall_to_room_dialogue_dialogue hall_to_room_dialogue_dialogue matches  run
+execute if score $hall_to_room_dialogue_dialogue hall_to_room_dialogue_dialogue matches  run
+execute if score $hall_to_room_dialogue_dialogue hall_to_room_dialogue_dialogue matches  run
+execute if score $hall_to_room_dialogue_dialogue hall_to_room_dialogue_dialogue matches  run
+execute if score $hall_to_room_dialogue_dialogue hall_to_room_dialogue_dialogue matches  run
+execute if score $hall_to_room_dialogue_dialogue hall_to_room_dialogue_dialogue matches  run
 
 
-
-
-execute if score $hall_to_room_dialogue_dialogue hall_to_room_dialogue_dialogue matches  run tellraw @a {"text":"小威:我的小幼苗怎麼被吸進去了"}
 execute if score $hall_to_room_dialogue_dialogue hall_to_room_dialogue_dialogue matches  run tellraw @a {"text":"小威:不!!!!我的家當!!!!!"}
 execute if score $hall_to_room_dialogue_dialogue hall_to_room_dialogue_dialogue matches  run tellraw @a {"text":"@:小威暈了過去，而再次醒來已到一個純白的空間"}
 execute if score $hall_to_room_dialogue_dialogue hall_to_room_dialogue_dialogue matches  run tellraw @a {"text":""}
