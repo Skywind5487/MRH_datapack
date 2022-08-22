@@ -41,9 +41,9 @@ execute if score $consciousness_space_dialogue consciousness_space_dialogue matc
 execute if score $consciousness_space_dialogue consciousness_space_dialogue matches 20 run tellraw @a {"text":"小威:你倒是回答我一下阿喂"}
 execute if score $consciousness_space_dialogue consciousness_space_dialogue matches 20 run schedule function mrh_command:hall_to_changbin/consciousness_space 4.5s
 execute if score $consciousness_space_dialogue consciousness_space_dialogue matches 21 run tellraw @a {"text":"天之聲:你將在3秒後抵達部落"}
-execute if score $consciousness_space_dialogue consciousness_space_dialogue matches 21 run schedule function mrh_command:hall_to_changbin/consciousness_space 4.5s
+execute if score $consciousness_space_dialogue consciousness_space_dialogue matches 21 run schedule function mrh_command:hall_to_changbin/consciousness_space 3s
 execute if score $consciousness_space_dialogue consciousness_space_dialogue matches 22 run tellraw @a {"text":"小威:等一下啦"}
-execute if score $consciousness_space_dialogue consciousness_space_dialogue matches 22 run schedule function mrh_command:hall_to_changbin/consciousness_space 3.5s
+execute if score $consciousness_space_dialogue consciousness_space_dialogue matches 22 run schedule function mrh_command:hall_to_changbin/consciousness_space 3s
 execute if score $consciousness_space_dialogue consciousness_space_dialogue matches 23 run tellraw @a {"text":"天之聲:3"}
 execute if score $consciousness_space_dialogue consciousness_space_dialogue matches 23 run schedule function mrh_command:hall_to_changbin/consciousness_space 1s
 execute if score $consciousness_space_dialogue consciousness_space_dialogue matches 24 run tellraw @a {"text":"天之聲:2"}
