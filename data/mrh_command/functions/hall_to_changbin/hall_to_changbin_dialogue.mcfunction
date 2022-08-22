@@ -4,7 +4,7 @@ scoreboard objectives add hall_to_changbin_dialogue dummy
 scoreboard players add $hall_to_changbin_dialogue hall_to_changbin_dialogue 1
 # $hall_to_changbin_dialogue add 1 to hall_to_changbin_dialogue
 execute if score $hall_to_changbin_dialogue hall_to_changbin_dialogue matches 1 run tellraw @a {"text":"小威:明天就要考試了"} 
-execute if score $hall_to_changbin_dialogue hall_to_changbin_dialogue matches 80     run tellraw @a {"text":"小威: 這次我一定要考過"} 
+execute if score $hall_to_changbin_dialogue hall_to_changbin_dialogue matches 80 run tellraw @a {"text":"小威: 這次我一定要考過"} 
 execute if score $hall_to_changbin_dialogue hall_to_changbin_dialogue matches 3 run tellraw @a {"text":"小威:要不然我會沒辦法畢業的"} 
 execute if score $hall_to_changbin_dialogue hall_to_changbin_dialogue matches 4 run tellraw @a {"text":"小威:雖然沒有畢業可能還有出路"}
 execute if score $hall_to_changbin_dialogue hall_to_changbin_dialogue matches 5 run tellraw @a {"text":"小威:但是這種事最好還是別讓他發生"} 
