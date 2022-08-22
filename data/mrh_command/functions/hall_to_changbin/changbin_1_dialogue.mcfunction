@@ -1,7 +1,7 @@
 scoreboard objectives add changbin_1_dialogue_dialogue dummy
 scoreboard players add $changbin_1_dialogue_dialogue changbin_1_dialogue_dialogue 1
 execute if score $changbin_1_dialogue_dialogue changbin_1_dialogue_dialogue matches 1 run tellraw @a {"text":"小威:(這裡是哪裡?)"}
-execute if score $changbin_1_dialogue_dialogue changbin_1_dialogue_dialogue matches 1 run schedule function mrh_command:hall_to_changbin/changbin_1 2.5s 
+execute if score $changbin_1_dialogue_dialogue changbin_1_dialogue_dialogue matches 1 run schedule function mrh_command:hall_to_changbin/changbin_1_dialogue 2.5s 
 execute if score $changbin_1_dialogue_dialogue changbin_1_dialogue_dialogue matches 2 run tellraw @a {"text":"???:這裡是你的意識空間"}
 execute if score $changbin_1_dialogue_dialogue changbin_1_dialogue_dialogue matches 2 run schedule function mrh_command:hall_to_changbin/changbin_1 3.5s 
 execute if score $changbin_1_dialogue_dialogue changbin_1_dialogue_dialogue matches 3 run tellraw @a {"text":"小威:你是誰?我腦中怎麼會有你的聲音?"}
