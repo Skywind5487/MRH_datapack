@@ -1,5 +1,6 @@
 # 註解
 scoreboard objectives add timer dummy
+scoreboard players set $timer timer 1
 
 
-# gamemode survival Skywind5487
+
