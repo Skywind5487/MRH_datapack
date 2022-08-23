@@ -7,7 +7,8 @@ execute if score $changbin_1_dialogue changbin_1_dialogue matches 1 run effect g
 execute if score $changbin_1_dialogue changbin_1_dialogue matches 1 run summon minecraft:vindicator -0.46 62.00 -74.48 {}
 execute if score $changbin_1_dialogue changbin_1_dialogue matches 1 run summon minecraft:vindicator -0.64 62.00 -73.64 {}
 execute if score $changbin_1_dialogue changbin_1_dialogue matches 1 run item replace entity @e[type=minecraft:vindicator,x=-19,dx=26,y=61,dy=7,z=-83,dz=14] weapon.mainhand with stone_sword
-execute if score $changbin_1_dialogue changbin_1_dialogue matches 1 run team join changbin_npc @e[type=minecraft:vindicator,type=villager,x=-19,dx=26,y=61,dy=7,z=-83,dz=14]
+execute if score $changbin_1_dialogue changbin_1_dialogue matches 1 run team join changbin_npc @e[type=minecraft:vindicator,x=-19,dx=26,y=61,dy=7,z=-83,dz=14]
+execute if score $changbin_1_dialogue changbin_1_dialogue matches 1 run team join changbin_npc @e[type=minecraft:villager,x=-19,dx=26,y=61,dy=7,z=-83,dz=14]
 execute if score $changbin_1_dialogue changbin_1_dialogue matches 1 run effect give @e[type=minecraft:vindicator,x=-19,dx=26,y=61,dy=7,z=-83,dz=14] minecraft:weakness 100001
 execute if score $changbin_1_dialogue changbin_1_dialogue matches 1 run effect give @e[type=minecraft:vindicator,x=-19,dx=26,y=61,dy=7,z=-83,dz=14] minecraft:slowness 10000 1
 execute if score $changbin_1_dialogue changbin_1_dialogue matches 1 run fill -15 63 -77 -15 64 -77 minecraft:barrier
