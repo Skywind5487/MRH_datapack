@@ -1,2 +1,2 @@
-function mrh_command:puiblic/scorebroad_default
-function mrh_command:puiblic/team_default
+function mrh_command:public/scorebroad_default
+function mrh_command:public/team_default
