@@ -1,6 +1,4 @@
 # 註解
-scoreboard objectives add hall_to_room_dialogue dummy
-#add objectives hall_to_room_dialogue
 scoreboard players add $hall_to_room_dialogue hall_to_room_dialogue 1
 # $hall_to_room_dialogue add 1 to hall_to_room_dialogue
 execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 1 run tellraw @a {"text":"小威:明天就要考試了"}

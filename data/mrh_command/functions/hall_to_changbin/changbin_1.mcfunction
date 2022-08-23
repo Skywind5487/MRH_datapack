@@ -1,4 +1,3 @@
-scoreboard objectives add changbin_1_dialogue dummy
 scoreboard players add $changbin_1_dialogue changbin_1_dialogue 1
 execute if score $changbin_1_dialogue changbin_1_dialogue matches 1 run teleport @a -3.0 62 -75.3 0 0
 execute if score $changbin_1_dialogue changbin_1_dialogue matches 1 run effect give @a minecraft:saturation 1 127
