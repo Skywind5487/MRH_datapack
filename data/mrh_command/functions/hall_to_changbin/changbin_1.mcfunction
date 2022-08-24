@@ -19,7 +19,6 @@ execute if score $changbin_1_dialogue changbin_1_dialogue matches 2 run execute 
 execute if score $changbin_1_dialogue changbin_1_dialogue matches 2 run schedule function mrh_command:hall_to_changbin/changbin_1 4.5s 
 
 execute if score $changbin_1_dialogue changbin_1_dialogue matches 3 run tellraw @a {"text":"吃瓜群眾:罪人!!!"}
-execute if score $changbin_1_dialogue changbin_1_dialogue matches 3 run execute as @a at @a run playsound minecraft:entity.vindicator.hurt master @a 
 execute if score $changbin_1_dialogue changbin_1_dialogue matches 3 run execute as @a at @a run playsound minecraft:entity.vindicator.ambient master @a 
 execute if score $changbin_1_dialogue changbin_1_dialogue matches 3 run schedule function mrh_command:hall_to_changbin/changbin_1 1s 
 
