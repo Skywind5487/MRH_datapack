@@ -5,7 +5,7 @@ execute if score $changbin_1_dialogue changbin_1_dialogue matches 1 run effect g
 execute if score $changbin_1_dialogue changbin_1_dialogue matches 1 run summon minecraft:vindicator 783.5 76 -384.5 {}
 execute if score $changbin_1_dialogue changbin_1_dialogue matches 1 run summon minecraft:vindicator 783.5 76 -385.5 {}
 execute if score $changbin_1_dialogue changbin_1_dialogue matches 1 run item replace entity @e[x=778,dx=20,y=75,dy=12,z=-390,dz=20,type=minecraft:vindicator] weapon.mainhand with stone_sword
-execute if score $changbin_1_dialogue changbin_1_dialogue matches 1 run team join changbin_npc @e[type=minecraft:vindicator,x=-19,dx=26,y=61,dy=7,z=-83,dz=14
+execute if score $changbin_1_dialogue changbin_1_dialogue matches 1 run team join changbin_npc @e[type=minecraft:vindicator,x=-19,dx=26,y=61,dy=7,z=-83,dz=14]
 execute if score $changbin_1_dialogue changbin_1_dialogue matches 1 run team join changbin_npc @e[x=778,dx=20,y=75,dy=12,z=-390,dz=20,type=minecraft:villager]
 execute if score $changbin_1_dialogue changbin_1_dialogue matches 1 run effect give @e[x=778,dx=20,y=75,dy=12,z=-390,dz=20,type=minecraft:vindicator] minecraft:weakness 100001
 execute if score $changbin_1_dialogue changbin_1_dialogue matches 1 run effect give @e[x=778,dx=20,y=75,dy=12,z=-390,dz=20,type=minecraft:vindicator] minecraft:slowness 10000 1
@@ -49,7 +49,7 @@ execute if score $changbin_1_dialogue changbin_1_dialogue matches 10 run execute
 execute if score $changbin_1_dialogue changbin_1_dialogue matches 10 run schedule function mrh_command:hall_to_changbin/changbin_1 4s
 
 execute if score $changbin_1_dialogue changbin_1_dialogue matches 11 run tellraw @a {"text":"弗利耶:對阿!乖女兒，小康才是真正對妳好的那個人,那個小威成天無所事事，一事無成!不會打獵、不會控火、連我們祖傳的打製石器都不會做,就更別說他那些難以啟齒的事蹟了!"}
-execute if score $changbin_1_dialogue changbin_1_dialogue matches 11 run schedule function mrh_command:hall_to_changbin/changbin_1 21s
+execute if score $changbin_1_dialogue changbin_1_dialogue matches 11 run schedule function mrh_command:hall_to_changbin/changbin_1 20s
 
 execute if score $changbin_1_dialogue changbin_1_dialogue matches 12 run tellraw @a {"text":"小康:小芙,回頭是岸,你快離開這個邪惡、卑鄙、下流的垃圾吧,就算妳看不上我，妳也值得比小威更好的人的!"}
 execute if score $changbin_1_dialogue changbin_1_dialogue matches 12 run schedule function mrh_command:hall_to_changbin/changbin_1 12s
@@ -92,6 +92,8 @@ execute if score $changbin_1_dialogue changbin_1_dialogue matches 23 run execute
 execute if score $changbin_1_dialogue changbin_1_dialogue matches 23 run schedule function mrh_command:hall_to_changbin/changbin_1 0.4s
 
 execute if score $changbin_1_dialogue changbin_1_dialogue matches 24 run execute as @a at @a run playsound minecraft:entity.vindicator.ambient master @a
+execute if score $changbin_1_dialogue changbin_1_dialogue matches 24 run schedule function mrh_command:hall_to_changbin/changbin_1 0.1s
+
 
 execute if score $changbin_1_dialogue changbin_1_dialogue matches 25 run tellraw @a {"text":"小芙:不要!!!"}
 execute if score $changbin_1_dialogue changbin_1_dialogue matches 25 run schedule function mrh_command:hall_to_changbin/changbin_1 2s
@@ -100,6 +102,6 @@ execute if score $changbin_1_dialogue changbin_1_dialogue matches 26 run tellraw
 execute if score $changbin_1_dialogue changbin_1_dialogue matches 26 run fill 784 76 -385 784 76 -386 air
 execute if score $changbin_1_dialogue changbin_1_dialogue matches 26 run effect give @a minecraft:instant_health 1 4
 execute if score $changbin_1_dialogue changbin_1_dialogue matches 26 run spawnpoint @a 787 76 -383
-execute if score $changbin_1_dialogue changbin_1_dialogue matches 26 run title @a title [{"color":"blue","text":"任務開始!!!","bold":"true"}]
+execute if score $changbin_1_dialogue changbin_1_dialogue matches 26 run title @a title [{"color":"blue","text":"任務開始!!!","bold":true}]
 execute if score $changbin_1_dialogue changbin_1_dialogue matches 26 run fill 785 76 -384 788 78 -382 air replace minecraft:barrier
 
