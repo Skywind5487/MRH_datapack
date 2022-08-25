@@ -17,3 +17,4 @@ fill 44 84 -474 36 84 -478 minecraft:stripped_spruce_wood[axis=x]
 fill 36 80 -476 38 80 -476 minecraft:spruce_wall_sign[facing=south]
 setblock 38 80 -477 minecraft:light_gray_wool
 setblock 44 82 -474 minecraft:lantern[hanging=true]
+clone 70 79 -479 80 84 -472 35 79 -479

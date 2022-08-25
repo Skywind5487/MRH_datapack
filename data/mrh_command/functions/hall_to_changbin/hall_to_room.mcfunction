@@ -1,6 +1,5 @@
-# 註解
 scoreboard players add $hall_to_room_dialogue hall_to_room_dialogue 1
-# $hall_to_room_dialogue add 1 to hall_to_room_dialogue
+
 execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 1 run tellraw @a {"text":"小威:明天就要考試了"}
 execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 1 run schedule function mrh_command:hall_to_changbin/hall_to_room 2.5s 
 
@@ -336,5 +335,5 @@ execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 76 run tp 
 execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 76 run schedule function mrh_command:hall_to_changbin/hall_to_room 2.5s
 
 execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 77 run effect clear @a
-execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 77 run function mrh_command:public/default
 execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 77 run setblock 56 18 -529 minecraft:redstone_block
+execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 77 run function mrh_command:public/default
