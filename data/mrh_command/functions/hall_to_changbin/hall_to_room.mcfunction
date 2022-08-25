@@ -188,6 +188,7 @@ execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 42 run set
 execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 42 run setblock 42 82 -475 minecraft:ender_chest
 execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 42 run setblock 42 82 -475 air
 execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 42 run setblock 43 81 -475 minecraft:ender_chest
+execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 42 run schedule function mrh_command:hall_to_changbin/hall_to_room 0.1s
 
 execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 43 run setblock 43 81 -475 minecraft:air
 execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 43 run particle minecraft:smoke 44.55 81.00 -474.60 0.35 0.5 0.35 0.02 2140
