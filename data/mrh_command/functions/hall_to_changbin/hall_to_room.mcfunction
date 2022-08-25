@@ -332,7 +332,9 @@ execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 75 run tp 
 execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 75 run execute as @a at @s run playsound minecraft:entity.dragon_fireball.explode player @s ~ ~ ~ 1000
 execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 75 run schedule function mrh_command:hall_to_changbin/hall_to_room 3.4s
 
-execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 76 run execute as @a at @s run tp 62.52 38.00 -517.57
+execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 76 run tp @a 62.52 38.00 -517.57
 execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 76 run schedule function mrh_command:hall_to_changbin/hall_to_room 2.5s
+
 execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 77 run effect clear @a
+execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 77 run function mrh_command:public/default
 execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 77 run setblock 56 18 -529 minecraft:redstone_block

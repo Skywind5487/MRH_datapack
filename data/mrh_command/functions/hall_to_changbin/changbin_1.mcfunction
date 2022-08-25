@@ -103,4 +103,4 @@ execute if score $changbin_1_dialogue changbin_1_dialogue matches 26 run effect 
 execute if score $changbin_1_dialogue changbin_1_dialogue matches 26 run spawnpoint @a 787 76 -383
 execute if score $changbin_1_dialogue changbin_1_dialogue matches 26 run title @a title [{"color":"blue","text":"任務開始!!!","bold":true}]
 execute if score $changbin_1_dialogue changbin_1_dialogue matches 26 run fill 785 76 -384 788 78 -382 air replace minecraft:barrier
-
+execute if score $changbin_1_dialogue changbin_1_dialogue matches 26 run function mrh_command:public/default
