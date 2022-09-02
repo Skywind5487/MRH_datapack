@@ -14,6 +14,7 @@ execute if score $changbin_1_dialogue changbin_1_dialogue matches 1 run schedule
 execute if score $changbin_1_dialogue changbin_1_dialogue matches 1 run particle minecraft:effect 787.0 76.0 -383.30 0.3 0.75 0.3 0.1 900
 execute if score $changbin_1_dialogue changbin_1_dialogue matches 1 run execute run tellraw @a {"text":"按T打開對話欄，enter或esc退出","blod":true,"color": "yellow"}
 execute if score $changbin_1_dialogue changbin_1_dialogue matches 1 run schedule function mrh_command:hall_to_changbin/changbin_1 3s 
+
 execute if score $changbin_1_dialogue changbin_1_dialogue matches 2 run tellraw @a {"text":"弗利耶:各位!現在我們要審判這位窮凶惡極,陰險狡詐的罪人"}
 execute if score $changbin_1_dialogue changbin_1_dialogue matches 2 run execute as @a at @a run playsound minecraft:entity.villager.no master @a
 execute if score $changbin_1_dialogue changbin_1_dialogue matches 2 run schedule function mrh_command:hall_to_changbin/changbin_1 4.5s 
