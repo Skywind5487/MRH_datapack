@@ -12,6 +12,11 @@ execute if score $changbin_1_dialogue changbin_1_dialogue matches 1 run effect g
 execute if score $changbin_1_dialogue changbin_1_dialogue matches 1 run effect give @e[x=778,dx=20,y=75,dy=12,z=-390,dz=20,type=minecraft:vindicator] minecraft:slowness 10000 1
 execute if score $changbin_1_dialogue changbin_1_dialogue matches 1 run schedule function mrh_command:hall_to_changbin/changbin_1 0.1s 
 execute if score $changbin_1_dialogue changbin_1_dialogue matches 1 run particle minecraft:effect 787.0 76.0 -383.30 0.3 0.75 0.3 0.1 900
+execute if score $changbin_1_dialogue changbin_1_dialogue matches 1 run fill 785 77 -385 788 77 -385 minecraft:barrier
+execute if score $changbin_1_dialogue changbin_1_dialogue matches 1 run fill 784 77 -382 784 76 -384 minecraft:barrier replace air
+execute if score $changbin_1_dialogue changbin_1_dialogue matches 1 run fill 788 77 -382 788 77 -384 minecraft:barrier
+execute if score $changbin_1_dialogue changbin_1_dialogue matches 1 run fill 784 77 -382 788 77 -382 minecraft:barrier
+
 execute if score $changbin_1_dialogue changbin_1_dialogue matches 1 run execute run tellraw @a {"text":"按T打開對話欄，enter或esc退出","blod":true,"color": "yellow"}
 execute if score $changbin_1_dialogue changbin_1_dialogue matches 1 run schedule function mrh_command:hall_to_changbin/changbin_1 3s 
 
@@ -104,4 +109,8 @@ execute if score $changbin_1_dialogue changbin_1_dialogue matches 26 run effect 
 execute if score $changbin_1_dialogue changbin_1_dialogue matches 26 run spawnpoint @a 787 76 -383
 execute if score $changbin_1_dialogue changbin_1_dialogue matches 26 run title @a title [{"color":"blue","text":"任務開始!!!","bold":true}]
 execute if score $changbin_1_dialogue changbin_1_dialogue matches 26 run fill 785 76 -384 788 78 -382 air replace minecraft:barrier
+execute if score $changbin_1_dialogue changbin_1_dialogue matches 26 run fill 785 77 -385 788 77 -385 minecraft:air
+execute if score $changbin_1_dialogue changbin_1_dialogue matches 26 run fill 784 77 -382 784 76 -384 minecraft:air replace barrier
+execute if score $changbin_1_dialogue changbin_1_dialogue matches 26 run fill 788 77 -382 788 77 -384 minecraft:air
+execute if score $changbin_1_dialogue changbin_1_dialogue matches 26 run fill 784 77 -382 788 77 -382 minecraft:air
 execute if score $changbin_1_dialogue changbin_1_dialogue matches 26 run function mrh_command:public/default
