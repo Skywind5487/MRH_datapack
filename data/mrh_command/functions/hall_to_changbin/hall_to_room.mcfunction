@@ -60,6 +60,7 @@ execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 15 run sch
 
 execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 16 run setblock 44 81 -476 air
 execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 16 run particle minecraft:smoke 44.55 81.00 -474.60 0.35 0.5 0.35 0.02 5440
+execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 16 run playsound minecraft:block.grass.break block @a 44.5 81.50 -474.5
 execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 16 run schedule function mrh_command:hall_to_changbin/hall_to_room 2.2s
 
 execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 17 run tellraw @a {"text":"小威:我的小幼苗怎麼被吸進去了"}
@@ -85,6 +86,7 @@ execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 22 run sch
 
 execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 23 run setblock 43 81 -474 air
 execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 23 run particle minecraft:smoke 44.55 81.00 -474.60 0.25 0.5 0.25 0.02 2440
+execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 23 run playsound minecraft:block.wood.break block @a 44.5 81.50 -474.5
 execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 23 run schedule function mrh_command:hall_to_changbin/hall_to_room 0.1s
 
 execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 24 run setblock 38 80 -477 air
@@ -121,6 +123,7 @@ execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 29 run sch
 
 execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 30 run setblock 43 81 -476 minecraft:air
 execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 30 run particle minecraft:smoke 44.55 81.00 -474.60 0.25 0.5 0.25 0.02 1440
+execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 30 run playsound minecraft:block.wool.break block @a 44.5 81.50 -474.5
 execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 30 run tellraw @a {"text":"小威:等一下!!!我的房間要被毀了!!!"}
 execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 30 run schedule function mrh_command:hall_to_changbin/hall_to_room 0.1s
 
@@ -147,6 +150,8 @@ execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 34 run set
 execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 34 run setblock 38 81 -476 minecraft:stripped_spruce_wood
 execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 34 run setblock 40 81 -476 minecraft:air
 execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 34 run setblock 37 81 -476 minecraft:air
+execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 34 run playsound minecraft:block.wood.break block @a 44.5 81.50 -474.5
+execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 34 run playsound minecraft:block.wood.break block @a 44.5 81.50 -474.5
 execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 34 run schedule function mrh_command:hall_to_changbin/hall_to_room 0.1s
 
 execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 35 run setblock 38 81 -476 air
@@ -162,6 +167,7 @@ execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 37 run set
 execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 37 run schedule function mrh_command:hall_to_changbin/hall_to_room 0.1s
 
 execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 38 run setblock 41 81 -475 minecraft:air
+execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 38 run playsound minecraft:block.wood.break block @a 44.5 81.50 -474.5
 execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 38 run particle minecraft:smoke 44.55 81.00 -474.60 0.25 0.5 0.25 0.02 1440
 execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 38 run setblock 43 80 -477 air
 execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 38 run setblock 44 81 -476 minecraft:stripped_oak_wood
@@ -172,6 +178,7 @@ execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 38 run sch
 execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 39 run setblock 44 81 -476 minecraft:air
 execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 39 run particle minecraft:smoke 44.55 81.00 -474.60 0.3 0.5 0.3 0.02 2140
 execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 39 run setblock 38 82 -474 air
+execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 39 run playsound minecraft:block.wood.break block @a 44.5 81.50 -474.5
 execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 39 run setblock 39 82 -474 minecraft:ender_chest
 execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 39 run schedule function mrh_command:hall_to_changbin/hall_to_room 0.1s
 
@@ -191,12 +198,14 @@ execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 42 run sch
 
 execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 43 run setblock 43 81 -475 minecraft:air
 execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 43 run particle minecraft:smoke 44.55 81.00 -474.60 0.35 0.5 0.35 0.02 2140
+execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 43 run playsound minecraft:block.ender_chest.open block @a 44.5 81.5 -474.5
 execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 43 run setblock 44 82 -475 minecraft:bookshelf
 execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 43 run fill 44 83 -474 44 82 -474 air
 execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 43 run schedule function mrh_command:hall_to_changbin/hall_to_room 0.1s
 
 execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 44 run setblock 44 82 -475 minecraft:air
 execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 44 run particle minecraft:smoke 44.55 81.00 -474.60 0.35 0.5 0.35 0.02 2140
+execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 44 run playsound minecraft:block.wood.break block @a 44.5 81.50 -474.5
 execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 44 run setblock 44 83 -475 minecraft:stripped_spruce_wood[axis=x]
 execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 44 run setblock 44 84 -475 air
 execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 44 run schedule function mrh_command:hall_to_changbin/hall_to_room 0.1s
@@ -265,6 +274,7 @@ execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 59 run set
 execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 59 run setblock 42 80 -474 minecraft:stripped_oak_wood[axis=x]
 execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 59 run setblock 41 79 -474 air
 execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 59 run particle minecraft:smoke 44.55 81.00 -474.60 0.25 0.5 0.25 0.02 2440
+execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 59 run playsound minecraft:block.wool.break block @a 44.5 81.50 -474.5
 execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 59 run schedule function mrh_command:hall_to_changbin/hall_to_room 0.1s
 
 execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 60 run setblock 42 80 -474 air
@@ -273,6 +283,7 @@ execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 60 run sch
 
 execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 61 run setblock 43 81 -474 air
 execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 61 run particle minecraft:smoke 44.55 81.00 -474.60 0.35 0.5 0.35 0.02 2140
+execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 61 run playsound minecraft:block.wood.break block @a 44.5 81.50 -474.5
 execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 61 run schedule function mrh_command:hall_to_changbin/hall_to_room 0.1s
 
 execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 62 run setblock 40 79 -476 air
@@ -289,18 +300,21 @@ execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 64 run sch
 
 execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 65 run setblock 43 81 -476 air
 execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 65 run particle minecraft:smoke 44.55 81.00 -474.60 0.3 0.5 0.3 0.02 1440
+execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 65 run playsound minecraft:block.wool.break block @a 44.50 81.5 -474.5
 execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 65 run setblock 45 81 -476 air
 execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 65 run setblock 44 81 -476 minecraft:stripped_oak_wood[axis=x]
 execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 65 run schedule function mrh_command:hall_to_changbin/hall_to_room 0.1s
 
 execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 66 run particle minecraft:smoke 44.55 81.00 -474.60 0.3 0.5 0.3 0.02 1440
 execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 66 run setblock 44 81 -476 minecraft:air
+execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 16 run playsound minecraft:block.wood.break block @a 44.5 81.50 -474.5
 execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 66 run setblock 45 82 -475 air
 execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 66 run setblock 44 82 -475 minecraft:stripped_oak_wood[axis=x]
 execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 66 run schedule function mrh_command:hall_to_changbin/hall_to_room 0.1s
 
 execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 67 run setblock 44 82 -475 minecraft:air
 execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 67 run particle minecraft:smoke 44.55 81.00 -474.60 0.3 0.5 0.3 0.02 1440
+execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 16 run playsound minecraft:block.wood.break block @a 44.5 81.50 -474.5
 execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 67 run schedule function mrh_command:hall_to_changbin/hall_to_room 0.2s
 
 execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 68 run tellraw @a {"text":"小威:我的家當!!!"}
